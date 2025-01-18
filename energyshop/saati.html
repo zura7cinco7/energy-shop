@@ -17,7 +17,27 @@
             border: 2px solid;
             border-radius: 25px;
         }
+        product-list{
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr;
+        gap: 20px;
+        width: 100%;
+        justify-items: center;
+    } 
 
+    
+
+@media (max-width: 800px) {
+    .product-list{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .product-list{
+        grid-template-columns: 1fr;
+    }
+}
 
 
         button{
@@ -25,8 +45,8 @@
             border-radius: 25px;
             width: 70px;
             height: 50px;
-            margin-bottom:650px;
-            margin-left:150px;
+            margin-bottom:450px;
+            margin-left:20px;
             background-color: #a57ba0;
         }
 
@@ -41,7 +61,7 @@
 
     </style>
     <body>
-        <img class="img" src="./saati.png" width="600px" height="700px"/>
+        <img class="img" src="./saati.png" width="300px" height="500px"/>
 
 
         <a href="./zuka2.html"><button>PAGE</button></a>
